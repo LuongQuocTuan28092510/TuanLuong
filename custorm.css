@@ -1,0 +1,76 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body .banner {
+  padding: 80px;
+  height: 500px;
+  background: url("./banner.jpg") center center no-repeat;
+}
+
+body .banner .about-dangnhap {
+  height: 125px;
+  width: 100%;
+  text-align: right;
+  margin-top: -57px;
+}
+
+body .banner .about-dangnhap .about,
+body .banner .about-dangnhap .signin {
+  margin-left: 10px;
+  margin-right: 70px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 15px;
+}
+
+body .banner .about-dangnhap .signin {
+  border: 1px solid green;
+  border-radius: 20px;
+}
+
+body .banner .logo {
+  background: url("./hapo.png") center center no-repeat;
+  margin-top: 40px;
+  height: 100px;
+}
+
+body .banner .text {
+  margin-top: 80px;
+  text-align: center;
+}
+
+body .banner .btn-start-now {
+  text-align: center;
+}
+
+body .banner .btn-start-now button {
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid green;
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+body .banner .content-center .left,
+body .banner .content-center .right,
+body .banner .content-center .center {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+body .banner .content-center span {
+  display: block;
+  font-size: 35px;
+}
+
+body .banner .content-center img {
+  width: 52px;
+  font-size: 40px;
+}

@@ -1,0 +1,83 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    .banner {
+        padding: 80px;
+        height: 500px;
+        background: url('./banner.jpg') center center no-repeat;
+
+        .about-dangnhap {
+            height: 125px;
+            width: 100%;
+            text-align: right;
+            margin-top: -57px;
+
+            .about,
+            .signin {
+                margin-left: 10px;
+                margin-right: 70px;
+                display: inline-block;
+                text-decoration: none;
+                text-transform: uppercase;
+                padding: 10px 15px;
+            }
+
+            .signin {
+                border: 1px solid green;
+                border-radius: 20px;
+            }
+
+        }
+
+        .logo {
+            background: url('./hapo.png') center center no-repeat;
+            margin-top: 40px;
+            height: 100px;
+        }
+
+        .text {
+            margin-top: 80px;
+            text-align: center;
+        }
+
+        .btn-start-now {
+            text-align: center;
+
+            button {
+                text-align: center;
+                text-transform: uppercase;
+                border: 1px solid green;
+                border-radius: 25px;
+                padding: 10px 20px;
+                margin-top: 10px;
+                cursor: pointer;
+            }
+        }
+
+        .content-center {
+
+            .left,
+            .right,
+            .center {
+                width: 33%;
+                display: inline-block;
+                text-align: center;
+                margin-top: 30px;
+            }
+
+            span {
+                display: block;
+                font-size: 35px;
+            }
+
+            img {
+                width: 52px;
+                font-size: 40px;
+            }
+        }
+
+
+    }
+
+}
